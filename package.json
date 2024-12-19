@@ -1,5 +1,5 @@
 {
-  "name": "simple-counter",
+  "name": "simple-increment-decrement-counter",
   "version": "1.0.8",
   "description": "",
   "main": "dist/index.js",
