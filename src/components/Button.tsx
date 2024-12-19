@@ -3,11 +3,13 @@ import { ReactNode } from "react";
 
 type PropsType = {
   children: ReactNode;
+  onClick?: () => void;
 };
 
-const Button = ({ children }: PropsType) => {
+const Button = ({ children, onClick }: PropsType) => {
   return (
     <button
+      onClick={onClick}
       style={{
         padding: "10px 30px",
         fontSize: "16px",
