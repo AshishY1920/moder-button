@@ -18,6 +18,7 @@ const Button = ({ children, onClick }: PropsType) => {
         backgroundColor: "blue",
         color: "white",
         border: "none",
+        margin: "0px 20px",
       }}
     >
       {children}
