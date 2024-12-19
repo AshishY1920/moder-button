@@ -7,7 +7,7 @@ const useCounter = () => {
     setCount(count + 1);
   };
   const Decrement = () => {
-    setCount(count - 1);
+    count < 0 ? setCount(0) : setCount(count - 1);
   };
 
   return { count, Increment, Decrement };
