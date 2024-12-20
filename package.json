@@ -1,12 +1,16 @@
 {
   "name": "simple-increment-decrement-counter",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
   "scripts": {
     "build": "npx rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AshishY1920/simple-increment-decrement-counter"
   },
   "keywords": [
     "increment decrement counter",
